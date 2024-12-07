@@ -1,0 +1,47 @@
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(48, 169, 129, 0.4);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error {
+    color: red;
+}
+.container_app {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    /* border: 5px solid; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 10px; */
+}

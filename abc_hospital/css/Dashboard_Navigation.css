@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.nav{
+    background-color: rgb(38, 61, 234, 0.5);
+    /* margin: 4px; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+li{
+    float: left;
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white ;
+    
+}
+
+li a:hover {
+    background-color: rgb(69, 115, 242, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.main_menu{
+    margin: 2rem;
+    
+}
+
+

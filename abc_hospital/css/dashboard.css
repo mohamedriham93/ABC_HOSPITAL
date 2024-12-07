@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(48, 143, 56);
+    
+
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background-color: #061007;
+}
+.content {
+    text-align: center;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+}
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
